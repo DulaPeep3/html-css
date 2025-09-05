@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+::-webkit-scrollbar {
+  height: 0px;
+  width: 0px;
+}
+
+body img {
+  width: 100vw;
+  position: absolute;
+  left: 50%;
+
+  transform: translate(-50%);
+}
