@@ -34,7 +34,7 @@
 @media screen and (min-width: 992px) {
     section#login {
         width: 950px;
-        height: 420px;
+        height: 390px;
     }
 
     section#login > div#imagem {
