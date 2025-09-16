@@ -4,6 +4,8 @@
     --lilas: #5f2c82;
 }
 
+/* Tablets */
+
 @media screen and (min-width: 768px) {
     body{
         background-image: linear-gradient(to bottom, #49a09d, #5f2c82);
@@ -11,6 +13,7 @@
 
     section#login {
         width: 80vw;
+        height: 380px;
         
     }
 
@@ -26,11 +29,12 @@
     }
 }
 
-
+/* Telas maiores */
 
 @media screen and (min-width: 992px) {
     section#login {
         width: 950px;
+        height: 420px;
     }
 
     section#login > div#imagem {
